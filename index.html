@@ -40,10 +40,10 @@
     }
   </style>
 </head>
-<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+<body class="bg-[#f8eeff] min-h-screen flex items-center justify-center flex-col">
 
-  <div class="container mx-auto p-4">
-    <div class="bg-white p-8 rounded-lg shadow-lg max-w-xl mx-auto">
+  <main class="container mx-auto p-4">
+    <div class="bg-white p-8 rounded-2xl shadow-2xl max-w-xl mx-auto">
       <div class="flex items-center mb-6">
         <img src="./assets/images/icon-star.svg" alt="star icon" class="mr-4">
         <h1 class="text-4xl font-bold">FAQs</h1>
@@ -51,7 +51,7 @@
 
       <div class="space-y-4">
         <div>
-          <button class="w-full text-left font-semibold text-lg hover:text-purple-700 focus:outline-none flex justify-between items-center">
+          <button type="button" class="w-full text-left font-semibold text-lg hover:text-purple-700 focus:outline-none flex justify-between items-center">
             What is Frontend Mentor, and how will it help me?
             <img src="./assets/images/icon-plus.svg" alt="plus icon">
           </button>
@@ -61,7 +61,7 @@
         </div>
         <hr>
         <div>
-          <button class="w-full text-left font-semibold text-lg hover:text-purple-700 focus:outline-none flex justify-between items-center">
+          <button type="button" class="w-full text-left font-semibold text-lg hover:text-purple-700 focus:outline-none flex justify-between items-center">
             Is Frontend Mentor free?
             <img src="./assets/images/icon-plus.svg" alt="plus icon">
           </button>
@@ -71,7 +71,7 @@
         </div>
         <hr>
         <div>
-          <button class="w-full text-left font-semibold text-lg hover:text-purple-700 focus:outline-none flex justify-between items-center">
+          <button type="button" class="w-full text-left font-semibold text-lg hover:text-purple-700 focus:outline-none flex justify-between items-center">
             Can I use Frontend Mentor projects in my portfolio?
             <img src="./assets/images/icon-plus.svg" alt="plus icon">
           </button>
@@ -81,7 +81,7 @@
         </div>
         <hr>
         <div>
-          <button class="w-full text-left font-semibold text-lg hover:text-purple-700 focus:outline-none flex justify-between items-center">
+          <button type="button" class="w-full text-left font-semibold text-lg hover:text-purple-700 focus:outline-none flex justify-between items-center">
             How can I get help if I'm stuck on a Frontend Mentor challenge?
             <img src="./assets/images/icon-plus.svg" alt="plus icon">
           </button>
@@ -91,10 +91,13 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
 
-  
-  
+  <footer class="attribution mt-4 text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+
   <script>
     const buttons = document.querySelectorAll('button');
 
